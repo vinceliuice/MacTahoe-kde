@@ -17,4 +17,4 @@ X-KDE-PluginInfo-Name=com.github.vinceliuice.MacTahoe-Dark
 X-KDE-PluginInfo-Website=https://github.com/vinceliuice/MacTahoe-kde
 X-KDE-fallbackPackage=org.kde.breeze.desktop
 X-Plasma-MainScript=defaults
-X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/2170936,kns://plasma-themes.knsrc/api.kde-look.org/2170947,kns://aurorae.knsrc/api.kde-look.org/2170938,kns://wallpaper.knsrc/api.kde-look.org/2170942,kns://sddmtheme.knsrc/api.kde-look.org/2170940,kns://icons.knsrc/api.kde-look.org/1405756,kns://xcursor.knsrc/api.kde-look.org/1411743
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/2305675,kns://plasma-themes.knsrc/api.kde-look.org/2305670,kns://aurorae.knsrc/api.kde-look.org/2305678,kns://wallpaper.knsrc/api.kde-look.org/2305680,kns://sddmtheme.knsrc/api.kde-look.org/2305683,kns://icons.knsrc/api.kde-look.org/2299216,kns://xcursor.knsrc/api.kde-look.org/2305688

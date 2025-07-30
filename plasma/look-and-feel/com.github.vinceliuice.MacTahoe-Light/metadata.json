@@ -23,12 +23,12 @@
     "X-Plasma-MainScript": "defaults",
     "X-Plasma-APIVersion": "2",
     "X-KPackage-Dependencies": [
-        "kns://colorschemes.knsrc/api.kde-look.org/2170936",
-        "kns://plasma-themes.knsrc/api.kde-look.org/2170944",
-        "kns://aurorae.knsrc/api.kde-look.org/2170938",
-        "kns://wallpaper.knsrc/api.kde-look.org/2170942",
-        "kns://sddmtheme.knsrc/api.kde-look.org/2170940",
-        "kns://icons.knsrc/api.kde-look.org/1405756",
-        "kns://xcursor.knsrc/api.kde-look.org/1411743"
+        "kns://colorschemes.knsrc/api.kde-look.org/2305675",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2305665",
+        "kns://aurorae.knsrc/api.kde-look.org/2305678",
+        "kns://wallpaper.knsrc/api.kde-look.org/2305680",
+        "kns://sddmtheme.knsrc/api.kde-look.org/2305683",
+        "kns://icons.knsrc/api.kde-look.org/2299216",
+        "kns://xcursor.knsrc/api.kde-look.org/2305688"
     ]
 }
