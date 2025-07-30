@@ -3,20 +3,21 @@
 
 MacTahoe kde is a MacOS Tahoe like theme for KDE Plasma desktop.
 
-In this repository you'll find:
+## Donate
 
-- Aurorae Theme
-- Kvantum Theme
-- Wallpaper Theme
-- Plasma Color Scheme
-- Plasma Desktop Theme
-- Plasma Global Theme
+If you like my project, you can donate at:
+
+<span class="paypal"><a href="https://www.paypal.me/vinceliuice" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
 
 ## Installation
 
 ```sh
 ./install.sh
 ```
+
+## My plasma shell settings
+
+![settings](settings.jpg)
 
 ## Recommendations
 - For gtk app blur Effect you can use this extension [kwin-effects-forceblur](https://github.com/taj-ny/kwin-effects-forceblur).
@@ -38,10 +39,6 @@ In this repository you'll find:
 If you like my project, you can donate at:
 
 <span class="paypal"><a href="https://www.paypal.me/vinceliuice" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
-
-## License
-
-GNU GPL v3
 
 ## preview
 
