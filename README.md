@@ -34,12 +34,6 @@ If you like my project, you can donate at:
 
 - Install [MacTahoe cursors theme](https://github.com/vinceliuice/MacTahoe-icon-theme/tree/main/cursors) for a more consistent and beautiful experience.
 
-## Donate
-
-If you like my project, you can donate at:
-
-<span class="paypal"><a href="https://www.paypal.me/vinceliuice" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
-
 ## preview
 
 ![light](plasma/look-and-feel/com.github.vinceliuice.MacTahoe-Light/contents/previews/fullscreenpreview.jpg)
