@@ -7,49 +7,9 @@ var layout = {
                 {
                     "config": {
                         "/": {
-                            "CurrentPreset": "org.kde.plasma.systemmonitor"
-                        },
-                        "/Appearance": {
-                            "chartFace": "org.kde.ksysguard.barchart",
-                            "title": "单个核心使用率"
-                        },
-                        "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
-                        },
-                        "/SensorColors": {
-                            "cpu/cpu.*/usage": "49,91,239",
-                            "cpu/cpu0/usage": "49,91,239",
-                            "cpu/cpu1/usage": "102,49,239",
-                            "cpu/cpu10/usage": "49,239,197",
-                            "cpu/cpu11/usage": "49,186,239",
-                            "cpu/cpu2/usage": "197,49,239",
-                            "cpu/cpu3/usage": "239,49,186",
-                            "cpu/cpu4/usage": "239,49,91",
-                            "cpu/cpu5/usage": "239,102,49",
-                            "cpu/cpu6/usage": "239,197,49",
-                            "cpu/cpu7/usage": "186,239,49",
-                            "cpu/cpu8/usage": "91,239,49",
-                            "cpu/cpu9/usage": "49,239,102"
-                        },
-                        "/Sensors": {
-                            "highPrioritySensorIds": "[\"cpu/cpu.*/usage\"]",
-                            "totalSensors": "[\"cpu/all/usage\"]"
-                        }
-                    },
-                    "geometry.height": 0,
-                    "geometry.width": 0,
-                    "geometry.x": 0,
-                    "geometry.y": 0,
-                    "plugin": "org.kde.plasma.systemmonitor.cpucore",
-                    "title": "单个核心使用率"
-                },
-                {
-                    "config": {
-                        "/": {
-                            "PreloadWeight": "60",
+                            "PreloadWeight": "85",
                             "popupHeight": "400",
-                            "popupWidth": "560"
+                            "popupWidth": "400"
                         },
                         "/ConfigDialog": {
                             "DialogHeight": "540",
@@ -65,23 +25,13 @@ var layout = {
                     "geometry.y": 0,
                     "plugin": "org.kde.plasma.analogclock",
                     "title": "Analog Clock"
-                },
-                {
-                    "config": {
-                    },
-                    "geometry.height": 0,
-                    "geometry.width": 0,
-                    "geometry.x": 0,
-                    "geometry.y": 0,
-                    "plugin": "org.kde.plasma.mediacontroller",
-                    "title": "Media Player"
                 }
             ],
             "config": {
                 "/": {
-                    "ItemGeometries-1920x1080": "Applet-52:96,48,368,368,0;Applet-49:96,464,288,480,0;Applet-50:1632,64,240,224,0;",
+                    "ItemGeometries-1920x1080": "Applet-113:1599.98,111.984,224,208,0;",
                     "ItemGeometries-2327x1309": "Applet-49:80,304,288,496,0;Applet-51:576,144,368,240,0;Applet-52:416,464,368,368,0;Applet-48:1088,144,384,384,0;Applet-50:1616,128,272,272,0;",
-                    "ItemGeometriesHorizontal": "Applet-52:96,48,368,368,0;Applet-49:96,464,288,480,0;Applet-50:1632,64,240,224,0;",
+                    "ItemGeometriesHorizontal": "Applet-113:1599.98,111.984,224,208,0;",
                     "formfactor": "0",
                     "immutability": "1",
                     "lastScreen": "0",
@@ -95,8 +45,8 @@ var layout = {
                     "positions": "{\"1920x1080\":[],\"2327x1309\":[]}"
                 },
                 "/Wallpaper/org.kde.image/General": {
-                    "Image": "/home/vince/Documents/GitHub/MacTahoe-gtk-theme/wallpaper/MacTahoe-night.jpeg",
-                    "SlidePaths": "/home/vince/.local/share/wallpapers/,/usr/share/wallpapers/"
+                    "Image": "$HOME/.local/share/wallpapers/MacTahoe/",
+                    "SlidePaths": "$HOME/.local/share/wallpapers/\\,/usr/share/wallpapers/"
                 }
             },
             "wallpaperPlugin": "org.kde.image"
@@ -115,7 +65,7 @@ var layout = {
                         "/General": {
                             "highlightWindows": "true",
                             "iconSpacing": "0",
-                            "launchers": "applications:systemsettings.desktop,applications:org.kde.discover.desktop,applications:github-desktop.desktop,applications:Clash Verge.desktop,applications:figma-linux.desktop,applications:lx-music-desktop.desktop,applications:org.gnome.Nautilus.desktop,applications:org.inkscape.Inkscape.desktop,applications:nemo.desktop,applications:org.gnome.Geary.desktop,applications:code.desktop,applications:nl.hjdskes.gcolor3.desktop,applications:gnome-system-monitor-kde.desktop"
+                            "launchers": "applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:org.mozilla.firefox.desktop,applications:org.kde.discover.desktop,applications:org.inkscape.Inkscape.desktop,applications:github-desktop.desktop,applications:code.desktop,applications:lx-music-desktop.desktop,applications:org.kde.plasma-systemmonitor.desktop,applications:org.gnome.Nautilus.desktop,applications:google-chrome.desktop"
                         }
                     },
                     "plugin": "org.kde.plasma.icontasks"
@@ -143,16 +93,11 @@ var layout = {
                     "config": {
                         "/": {
                             "PreloadWeight": "100",
-                            "popupHeight": "517",
-                            "popupWidth": "673"
-                        },
-                        "/ConfigDialog": {
-                            "DialogHeight": "540",
-                            "DialogWidth": "720"
+                            "popupHeight": "516",
+                            "popupWidth": "663"
                         },
                         "/General": {
-                            "favoritesPortedToKAstats": "true",
-                            "systemFavorites": "suspend\\,hibernate\\,reboot\\,shutdown"
+                            "favoritesPortedToKAstats": "true"
                         },
                         "/Shortcuts": {
                             "global": "Alt+F1"
@@ -182,13 +127,20 @@ var layout = {
                 },
                 {
                     "config": {
+                    },
+                    "plugin": "org.kde.plasma.marginsseparator"
+                },
+                {
+                    "config": {
                         "/": {
                             "PreloadWeight": "100",
                             "popupHeight": "450",
                             "popupWidth": "560"
                         },
                         "/Appearance": {
-                            "dateDisplayFormat": "BesideTime"
+                            "dateDisplayFormat": "BesideTime",
+                            "dateFormat": "isoDate",
+                            "fontWeight": "400"
                         },
                         "/ConfigDialog": {
                             "DialogHeight": "540",
@@ -200,12 +152,17 @@ var layout = {
                 {
                     "config": {
                         "/": {
-                            "PreloadWeight": "60",
+                            "PreloadWeight": "65",
                             "popupHeight": "35",
                             "popupWidth": "630"
                         }
                     },
                     "plugin": "org.kde.milou"
+                },
+                {
+                    "config": {
+                    },
+                    "plugin": "org.kde.plasma.showdesktop"
                 }
             ],
             "config": {
