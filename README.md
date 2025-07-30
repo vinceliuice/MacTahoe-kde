@@ -20,7 +20,9 @@ In this repository you'll find:
 
 ## Recommendations
 - For gtk app blur Effect you can use this extension [kwin-effects-forceblur](https://github.com/taj-ny/kwin-effects-forceblur).
+
   Go to `System Sttings` > `Window Management` > `Desktop Effects` > `Better Blur` turn it on
+
   Open `Better Blur` Configure window > `Force blur` active `Blur all except matching`
 
 - For better looking please use this pack with [Kvantum engine](https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL.md#distributions).
