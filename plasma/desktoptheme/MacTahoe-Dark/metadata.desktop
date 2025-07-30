@@ -1,0 +1,28 @@
+[Desktop Entry]
+Name=MacTahoe-Dark
+Comment=MacOS Tahoe dark theme for plasma
+
+X-KDE-PluginInfo-Author=Vince Liuice
+X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
+X-KDE-PluginInfo-Name=MacTahoe-Dark
+X-KDE-PluginInfo-Version=5.84.0
+X-KDE-PluginInfo-Website=https://github.com/vinceliuice
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-License=GPL-3.0
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[Wallpaper]
+defaultWallpaperTheme=MacTahoe-Dark
+defaultFileSuffix=.jpeg
+defaultWidth=3840
+defaultHeight=2160
+
+[ContrastEffect]
+enabled=false
+contrast=0.2
+intensity=1.4
+saturation=10
+
+[AdaptiveTransparency]
+enabled=true

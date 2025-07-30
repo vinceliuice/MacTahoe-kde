@@ -1,0 +1,25 @@
+{
+    "KPackageStructure": "Plasma/LayoutTemplate",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "vinceliuice@hotmail.com",
+                "Name": "Vince Liuice",
+                "Name[zh_CN]": "浣衣尘"
+            }
+        ],
+        "Category": "",
+        "Description": "MacOS Panel containing the global menu applet",
+        "Description[zh_CN]": "Mac系统风格包含全局菜单的面板",
+        "EnabledByDefault": true,
+        "Id": "org.github.desktop.MacOSPanel",
+        "License": "LGPLv2+",
+        "Name": "MacOS Panel",
+        "Name[zh_CN]": "Mac系统面板",
+        "Website": "https://www.kde.org/plasma-desktop"
+    },
+    "X-Plasma-ContainmentCategories": [
+        "panel"
+    ],
+    "X-Plasma-Shell": "plasmashell"
+}

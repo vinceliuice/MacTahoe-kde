@@ -1,0 +1,17 @@
+[SddmGreeterTheme]
+Name=MacTahoe
+Description=MacOS Tahoe sddm theme for KDE Plasma
+Author=VinceLiuice
+Copyright=(c) 2014, Vince Liuice
+License=CC-BY-SA
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/vinceliuice/MacTahoe-kde
+Screenshot=Preview.jpeg
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=vinceliuice@hotmail.com
+Theme-Id=MacTahoe
+Theme-API=2.0
+QtVersion=6

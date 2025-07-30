@@ -1,0 +1,25 @@
+{
+    "KPackageStructure": "Plasma/LayoutTemplate",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "vinceliuice@hotmail.com",
+                "Name": "Vince Liuice",
+                "Name[zh_CN]": "浣衣尘"
+            }
+        ],
+        "Category": "",
+        "Description": "MacOS Panel Dock style",
+        "Description[zh_CN]": "Mac系统风格dock面板",
+        "EnabledByDefault": true,
+        "Id": "org.github.desktop.MacOSDock",
+        "License": "LGPLv2+",
+        "Name": "MacOS Dock",
+        "Name[zh_CN]": "Mac系统Dock面板",
+        "Website": "https://www.kde.org/plasma-desktop"
+    },
+    "X-Plasma-ContainmentCategories": [
+        "panel"
+    ],
+    "X-Plasma-Shell": "plasmashell"
+}

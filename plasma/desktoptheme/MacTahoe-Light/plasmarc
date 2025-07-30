@@ -1,0 +1,14 @@
+[Wallpaper]
+defaultWallpaperTheme=MacTahoe-Light
+defaultFileSuffix=.jpeg
+defaultWidth=3840
+defaultHeight=2160
+
+[ContrastEffect]
+enabled=false
+contrast=0.2
+intensity=1.4
+saturation=10
+
+[AdaptiveTransparency]
+enabled=true
