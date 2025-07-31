@@ -1,5 +1,5 @@
 
-MacSequoia sddm theme for KDE Plasma desktop.
+MacTahoe sddm theme for KDE Plasma desktop.
 
 ## Installation
 

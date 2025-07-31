@@ -131,8 +131,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-ColorScheme=MacSequoiaLight
-Name=MacSequoiaLight
+ColorScheme=MacTahoeLight
+Name=MacTahoeLight
 shadeSortColumn=true
 
 [KDE]

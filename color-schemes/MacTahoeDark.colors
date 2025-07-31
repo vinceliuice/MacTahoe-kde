@@ -130,8 +130,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=120,120,120
 
 [General]
-ColorScheme=MacSequoiaDark
-Name=MacSequoiaDark
+ColorScheme=MacTahoeDark
+Name=MacTahoeDark
 shadeSortColumn=true
 
 [KDE]
