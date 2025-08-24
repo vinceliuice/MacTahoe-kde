@@ -17,7 +17,7 @@ If you like my project, you can donate at:
 
 ## My plasma shell settings
 
-![settings](settings.jpg)
+![panel_settings](panel_settings.jpg)
 
 ## Recommendations
 - For gtk app blur Effect you can use this extension [kwin-effects-forceblur](https://github.com/taj-ny/kwin-effects-forceblur).
@@ -27,6 +27,8 @@ If you like my project, you can donate at:
   1. Open `Better Blur` Configure window > `Force blur` active `Blur all except matching`
 
   2. Open `Rounded corners` > set window top corner radius to `24` and window bottom corner radius to `24`
+
+![blur_settings](blur_settings.png)
 
 - For better looking please use this pack with [Kvantum engine](https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL.md#distributions).
 
