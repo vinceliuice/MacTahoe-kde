@@ -24,7 +24,9 @@ If you like my project, you can donate at:
 
   Go to `System Sttings` > `Window Management` > `Desktop Effects` > `Better Blur` turn it on
 
-  Open `Better Blur` Configure window > `Force blur` active `Blur all except matching`
+  1. Open `Better Blur` Configure window > `Force blur` active `Blur all except matching`
+
+  2. Open `Rounded corners` > set window top corner radius to `24` and window bottom corner radius to `24`
 
 - For better looking please use this pack with [Kvantum engine](https://github.com/tsujan/Kvantum/blob/master/Kvantum/INSTALL.md#distributions).
 
