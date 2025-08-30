@@ -225,7 +225,7 @@ frame.top=5
 frame.bottom=5
 frame.left=5
 frame.right=5
-indicator.size=11
+indicator.size=16
 text.normal.color=#333333
 
 [RadioButton]
