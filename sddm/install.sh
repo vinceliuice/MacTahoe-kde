@@ -66,6 +66,6 @@ if [[ "$UID" -eq "$ROOT_UID" ]]; then
   color="-Dark" && install
   echo
 else
-  echo -e "Run this with sudo !"
+  prompt -e "\n Run this with sudo !"
 fi
 
