@@ -15,6 +15,48 @@ If you like my project, you can donate at:
 ./install.sh
 ```
 
+### Nix
+For nix installation:
+
+```nix
+# 1. Edit flake.nix
+# ...
+inputs.tahoekde.url = "github:vinceliuice/MacTahoe-kde";
+
+# ...
+{
+    config = {
+        # 2. Install it as a package.
+        home.packages = let
+                tahoeKDEDrv = inputs.tahoekde.${pkgs.stdenv.hostPlatform.system}.tahoekde;
+            in [ tahoeKDEDrv ];
+
+        # ...
+        # 3. If you have plasma-manager
+        programs.plasma = let variant = "dark"; in {
+            workspace = {
+                theme = tahoeKDEDrv.theme.${variant};
+                colorScheme = tahoeKDEDrv.colorScheme.${variant};
+                # FIXME: detected pref issue with kwin lib.
+                # windowDecorations = {
+                #   library = themeDrv.aurorae.lib;
+                #   theme = themeDrv.aurorae.${variant};
+                # };
+                # icon = tahoeIconDrv.themeName;
+            };
+            configFile = {
+                "kvantum.kvconfig" = {
+                    General = {
+                        theme = tahoeKDEDrv.kvantumThemeName;
+                    };
+                };
+            };
+        };
+    };
+}
+
+```
+
 ## My plasma shell settings
 
 ![panel_settings](panel_settings.jpg)
