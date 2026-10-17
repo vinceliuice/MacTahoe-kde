@@ -12,6 +12,7 @@ import Qt5Compat.GraphicalEffects
 import org.kde.plasma.components 3.0 as PlasmaComponents3
 import org.kde.plasma.plasma5support 2.0 as P5Support
 import org.kde.plasma.private.keyboardindicator as KeyboardIndicator
+import org.kde.plasma.workspace.keyboardlayout as Keyboards
 import org.kde.kirigami 2.20 as Kirigami
 
 import org.kde.breeze.components
@@ -70,7 +71,7 @@ Item {
         anchors.fill: parent
 
         property bool uiVisible: true
-        property bool blockUI: mainStack.depth > 1 || userListComponent.mainPasswordBox.text.length > 0 || inputPanel.keyboardActive || config.type !== "image"
+        property bool blockUI: mainStack.depth > 1 || userListComponent.mainPasswordBox.text.length > 0 || Keyboards.KWinVirtualKeyboard.visible || config.type !== "image"
 
         hoverEnabled: true
         drag.filterChildren: true
@@ -207,7 +208,7 @@ Item {
                     return parts.join(" • ");
                 }
 
-                actionItemsVisible: !inputPanel.keyboardActive
+                actionItemsVisible: !Keyboards.KWinVirtualKeyboard.visible
                 actionItems: [
                     ActionButton {
                         icon.name: "/usr/share/sddm/themes/MacTahoe/assets/suspend_primary.svgz"
@@ -314,17 +315,6 @@ Item {
             }
         }
 
-        VirtualKeyboardLoader {
-            id: inputPanel
-
-            z: 1
-
-            screenRoot: root
-            mainStack: mainStack
-            mainBlock: userListComponent
-            passwordField: userListComponent.mainPasswordBox
-        }
-
         Component {
             id: userPromptComponent
             Login {
@@ -351,7 +341,7 @@ Item {
                     sddm.login(username, password, sessionButton.currentIndex)
                 }
 
-                actionItemsVisible: !inputPanel.keyboardActive
+                actionItemsVisible: !Keyboards.KWinVirtualKeyboard.visible
                 actionItems: [
                     ActionButton {
                         icon.name: "/usr/share/sddm/themes/MacTahoe/assets/suspend_primary.svgz"
@@ -453,12 +443,16 @@ Item {
 
                 text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Button to show/hide virtual keyboard", "Virtual Keyboard")
                 font.pointSize: config.fontSize
-                icon.name: inputPanel.keyboardActive ? "input-keyboard-virtual-on" : "input-keyboard-virtual-off"
+                icon.name: Keyboards.KWinVirtualKeyboard.visible ? "input-keyboard-virtual-on" : "input-keyboard-virtual-off"
                 onClicked: {
-                    // Otherwise the password field loses focus and virtual keyboard
-                    // keystrokes get eaten
-                    userListComponent.mainPasswordBox.forceActiveFocus();
-                    inputPanel.showHide()
+                    if (Keyboards.KWinVirtualKeyboard.visible) {
+                        Keyboards.KWinVirtualKeyboard.active = false;
+                    } else {
+                        // Otherwise the password field loses focus and virtual keyboard
+                        // keystrokes get eaten
+                        userListComponent.mainPasswordBox.forceActiveFocus();
+                        Keyboards.KWinVirtualKeyboard.forceActivate();
+                    }
                 }
                 visible: false
 
